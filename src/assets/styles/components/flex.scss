@@ -1,0 +1,314 @@
+// flex 布局 全局通用
+.d-if,
+.d-f {
+  display: -webkit-flex !important; // Safari
+  display: flex !important;
+  // flex-direction: row | row-reverse | column | column-reverse;
+  &.fd-c {
+    flex-direction: column;
+  }
+  &.fd-cr {
+    flex-direction: column-reverse;
+  }
+  &.fd-r {
+    flex-direction: row; // 默认
+  }
+  &.fd-rr {
+    flex-direction: row-reverse;
+  }
+
+  // flex-wrap: nowrap | wrap | wrap-reverse;
+  &.fw-n {
+    flex-wrap: nowrap; // 默认
+  }
+  &.fw-w {
+    flex-wrap: wrap;
+  }
+  &.fw-wr {
+    flex-wrap: wrap-reverse;
+  }
+
+  // flex-flow: <flex-direction> || <flex-wrap>;
+  &.ff-c-n {
+    flex-flow: column nowrap;
+  }
+  &.ff-c-w {
+    flex-flow: column wrap;
+  }
+  &.ff-c-wr {
+    flex-flow: column wrap-reverse;
+  }
+  &.ff-cr-n {
+    flex-flow: column-reverse nowrap;
+  }
+  &.ff-cr-w {
+    flex-flow: column-reverse wrap;
+  }
+  &.ff-cr-wr {
+    flex-flow: column-reverse wrap-reverse;
+  }
+  &.ff-r-n {
+    flex-flow: row nowrap; // 默认
+  }
+  &.ff-r-w {
+    flex-flow: row wrap;
+  }
+  &.ff-r-wr {
+    flex-flow: row wrap-reverse;
+  }
+  &.ff-rr-n {
+    flex-flow: row-reverse nowrap;
+  }
+  &.ff-rr-w {
+    flex-flow: row-reverse wrap;
+  }
+  &.ff-rr-wr {
+    flex-flow: row-reverse wrap-reverse;
+  }
+
+  // justify-content: flex-start | flex-end | center | space-between | space-around;
+  &.jc-fs {
+    justify-content: flex-start; // 默认值
+  }
+  &.jc-fe {
+    justify-content: flex-end;
+  }
+  &.jc-c {
+    justify-content: center;
+  }
+  &.jc-sb {
+    justify-content: space-between;
+  }
+  &.jc-sa {
+    justify-content: space-around;
+  }
+
+  // align-items: flex-start | flex-end | center | baseline | stretch;
+  &.ai-fs {
+    align-items: flex-start;
+  }
+  &.ai-fe {
+    align-items: flex-end;
+  }
+  &.ai-c {
+    align-items: center;
+  }
+  &.ai-b {
+    align-items: baseline;
+  }
+  &.ai-s {
+    align-items: stretch; // 默认值
+  }
+
+  // align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+  &.ac-fs {
+    align-content: flex-start;
+  }
+  &.ac-fe {
+    align-content: flex-end;
+  }
+  &.ac-c {
+    align-content: center;
+  }
+  &.ac-sb {
+    align-content: space-between;
+  }
+  &.ac-sa {
+    align-content: space-around;
+  }
+  &.ac-s {
+    align-content: stretch; // 默认值
+  }
+
+  // order: <integer>;
+  .o-0 {
+    order: 0; // 默认
+  }
+  .o-1 {
+    order: 1;
+  }
+  .o-2 {
+    order: 2;
+  }
+  .o-3 {
+    order: 3;
+  }
+  .o-4 {
+    order: 4;
+  }
+  .o-5 {
+    order: 5;
+  }
+  .o-6 {
+    order: 6;
+  }
+  .o-7 {
+    order: 7;
+  }
+  .o-8 {
+    order: 8;
+  }
+  .o-9 {
+    order: 9;
+  }
+  .o-10 {
+    order: 10;
+  }
+
+  // flex-grow: <number>; /* default 0 */
+  .fg-0 {
+    flex-grow: 0; // 默认
+  }
+  .fg-1 {
+    flex-grow: 1;
+  }
+  .fg-2 {
+    flex-grow: 2;
+  }
+  .fg-3 {
+    flex-grow: 3;
+  }
+  .fg-4 {
+    flex-grow: 4;
+  }
+  .fg-5 {
+    flex-grow: 5;
+  }
+  .fg-6 {
+    flex-grow: 6;
+  }
+  .fg-7 {
+    flex-grow: 7;
+  }
+  .fg-8 {
+    flex-grow: 8;
+  }
+  .fg-9 {
+    flex-grow: 9;
+  }
+  .fg-10 {
+    flex-grow: 10;
+  }
+
+  // flex-shrink: <number>; /* default 1 */
+  .fs-0 {
+    flex-shrink: 0;
+  }
+  .fs-1 {
+    flex-shrink: 1; // 默认
+  }
+  .fs-2 {
+    flex-shrink: 2;
+  }
+  .fs-3 {
+    flex-shrink: 3;
+  }
+  .fs-4 {
+    flex-shrink: 4;
+  }
+  .fs-5 {
+    flex-shrink: 5;
+  }
+  .fs-6 {
+    flex-shrink: 6;
+  }
+  .fs-7 {
+    flex-shrink: 7;
+  }
+  .fs-8 {
+    flex-shrink: 8;
+  }
+  .fs-9 {
+    flex-shrink: 9;
+  }
+  .fs-10 {
+    flex-shrink: 10;
+  }
+
+  // flex-basis: <length> | auto; /* default auto */
+  .fb-a {
+    flex-basis: auto; // 默认
+  }
+
+  // flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+  .f-n {
+    flex: none; // 0 0 auto
+  }
+  .f-a {
+    flex: auto; // 1 1 auto
+  }
+  .f-0 {
+    flex: 0; // 0 1 0%
+  }
+  .f-1 {
+    flex: 1; // 1 1 0%
+    overflow: hidden;
+  }
+  .f-2 {
+    flex: 2; // 2 1 0%
+  }
+  .f-3 {
+    flex: 3; // 3 1 0%
+  }
+  .f-4 {
+    flex: 4; // 4 1 0%
+  }
+  .f-5 {
+    flex: 5; // 5 1 0%
+  }
+  .f-6 {
+    flex: 6; // 6 1 0%
+  }
+  .f-7 {
+    flex: 7; // 7 1 0%
+  }
+  .f-8 {
+    flex: 8; // 8 1 0%
+  }
+  .f-9 {
+    flex: 9; // 9 1 0%
+  }
+  .f-10 {
+    flex: 10; // 10 1 0%
+  }
+
+  .f-0-1-a {
+    flex: 0 1 auto; // 默认值
+  }
+  .f-1-0-a {
+    flex: 1 0 auto;
+  }
+  .f-1-1-a {
+    flex: 1 1 auto;
+  }
+  .f-2-0-a {
+    flex: 2 0 auto;
+  }
+  .f-2-1-a {
+    flex: 2 1 auto;
+  }
+
+  // align-self: auto | flex-start | flex-end | center | baseline | stretch;
+  .as-a {
+    align-self: auto;
+  }
+  .as-fs {
+    align-self: flex-start;
+  }
+  .as-fe {
+    align-self: flex-end;
+  }
+  .as-c {
+    align-self: center;
+  }
+  .as-b {
+    align-self: baseline;
+  }
+  .as-s {
+    align-self: stretch;
+  }
+}
+.d-if {
+  display: -webkit-inline-flex !important;
+  display: inline-flex !important;
+}

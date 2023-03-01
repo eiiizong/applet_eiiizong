@@ -1,0 +1,12 @@
+// 默认间距
+$spacing: 32rpx !default;
+
+/* 水平间距 */
+$spacing-row-sm: $spacing - 10rpx;
+$spacing-row-base: $spacing;
+$spacing-row-lg: $spacing + 10rpx;
+
+/* 垂直间距 */
+$spacing-col-sm: $spacing -8rpx;
+$spacing-col-base: $spacing;
+$spacing-col-lg: $spacing + 8rpx;

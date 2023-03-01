@@ -1,0 +1,12 @@
+// mixins
+@forward '../mixins';
+
+// 变量
+@forward 'border-radius';
+@forward 'box-shadow';
+@forward 'color';
+@forward 'font-size';
+@forward 'line-height';
+@forward 'opacity';
+@forward 'spacing';
+@forward 'z-index';

@@ -1,0 +1,19 @@
+// 元素居中 —— line-height
+// @example scss
+//
+// .element {
+//   @include centerLineHeight(20px);
+// }
+//
+// CSS Output
+// .element {
+//   height: 20px;
+//   line-height: 20px;
+//   text-align: center;
+// }
+//
+@mixin centerLineHeight($height) {
+  line-height: $height;
+  height: $height;
+  text-align: center;
+}

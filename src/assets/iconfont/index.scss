@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('~@/assets/iconfont/fonts/iconfont.ttf') format('truetype'),
+    url('~@/assets/iconfont/fonts/iconfont.woff') format('woff'),
+    url('~@/assets/iconfont/fonts/iconfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='iconfont-'],
+[class*=' iconfont-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconfont' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfont-address:before {
+  content: '\e900';
+}
+.iconfont-arrow-bottom-fill:before {
+  content: '\e901';
+}
+.iconfont-arrow-bottom:before {
+  content: '\e902';
+}
+.iconfont-arrow-right-double:before {
+  content: '\e903';
+}
+.iconfont-arrow-select-fill:before {
+  content: '\e904';
+}
+.iconfont-camera:before {
+  content: '\e905';
+}
+.iconfont-clear:before {
+  content: '\e906';
+}
+.iconfont-delete:before {
+  content: '\e907';
+}
+.iconfont-file:before {
+  content: '\e908';
+}
+.iconfont-hook:before {
+  content: '\e909';
+}
+.iconfont-loading:before {
+  content: '\e90a';
+}
+.iconfont-match-fail:before {
+  content: '\e90b';
+}
+.iconfont-match-success:before {
+  content: '\e90c';
+}
+.iconfont-match-warn:before {
+  content: '\e90d';
+}
+.iconfont-search:before {
+  content: '\e90e';
+}
+.iconfont-six-shape:before {
+  content: '\e90f';
+}
+.iconfont-user-kehu:before {
+  content: '\e910';
+}
+.iconfont-user-media:before {
+  content: '\e911';
+}
+.iconfont-websit-fill:before {
+  content: '\e912';
+}

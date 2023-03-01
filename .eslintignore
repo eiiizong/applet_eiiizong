@@ -1,0 +1,13 @@
+# eslint 忽略文件名
+*.jpg
+*.jpge
+*.png
+*.gif
+*.html
+*vue.d.ts
+
+# eslint 忽略文件
+node_modules/*
+dist/*
+src/uni_modules/*
+src/pages/packageDemo/*

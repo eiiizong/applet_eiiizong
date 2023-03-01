@@ -1,0 +1,27 @@
+// 元素居中 —— 定位 margin
+// @example scss
+//
+// .element {
+//   @include centerPositionMargin(20px,20px);
+// }
+//
+// CSS Output
+// .element {
+//   width: 20px;
+//   height: 20px;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   margin-left: -10px;
+//   margin-top: -10px;
+// }
+
+@mixin centerPositionMargin($width, $height, $pos: absolute) {
+  width: $width;
+  height: $height;
+  position: $pos;
+  top: 50%;
+  left: 50%;
+  margin-left: -($width/2);
+  margin-top: -($height/2);
+}

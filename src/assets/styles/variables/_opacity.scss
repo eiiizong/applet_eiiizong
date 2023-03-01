@@ -1,0 +1,6 @@
+// 透明度
+$opacity: 1 !default;
+$opacity-base: $opacity !default;
+
+$opacity-active: 0.8 !default; // Button 等组件点击态额透明度
+$opacity-disabled: 0.3 !default; // Button 等组件禁用态的透明度

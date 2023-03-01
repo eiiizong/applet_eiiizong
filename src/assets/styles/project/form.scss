@@ -1,0 +1,21 @@
+@use '../variables/index.scss' as *;
+
+$input-font-size: 30rpx;
+$input-line-height: 42rpx;
+
+.custom-form-page {
+  width: 100%;
+  padding: $spacing;
+  .form-wrapper {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0rpx 2rpx 24rpx 0rpx rgba(8, 76, 192, 0.06);
+    border-radius: 16rpx;
+    padding: 20rpx 40rpx;
+    font-size: $input-font-size;
+    line-height: $input-line-height;
+  }
+  .button-wrapper {
+    padding: $spacing 0;
+  }
+}

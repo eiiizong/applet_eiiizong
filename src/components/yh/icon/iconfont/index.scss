@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'yh-iconfont'; /* Project id 3397845 */
+  src: url('@/components/yh/icon/iconfont/iconfont.woff2') format('woff2'),
+    url('@/components/yh/icon/iconfont/iconfont.woff') format('woff'),
+    url('@/components/yh/icon/iconfont/iconfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.yh-iconfont {
+  font-family: 'yh-iconfont' !important;
+  font-size: 32rpx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.yh-iconfont-photo-fail:before {
+  content: '\e6ae';
+}
+
+.yh-iconfont-photo:before {
+  content: '\e6af';
+}
+
+.yh-iconfont-photo-o:before {
+  content: '\e6b0';
+}
+
+.yh-iconfont-plus:before {
+  content: '\e767';
+}
+
+.yh-iconfont-minus:before {
+  content: '\e768';
+}
+
+.yh-iconfont-picker:before {
+  content: '\e65c';
+}
+
+.yh-iconfont-tick:before {
+  content: '\e6b6';
+}
+
+.yh-iconfont-delete-fill:before {
+  content: '\e6a7';
+}
+
+.yh-iconfont-close:before {
+  content: '\e646';
+}
+
+.yh-iconfont-loading:before {
+  content: '\e64f';
+}
+
+.yh-iconfont-close-round-fill:before {
+  content: '\e658';
+}
+
+.yh-iconfont-close_round:before {
+  content: '\e659';
+}
+
+.yh-iconfont-back:before {
+  content: '\e679';
+}
+
+.yh-iconfont-scan:before {
+  content: '\e689';
+}
+
+.yh-iconfont-checkbox-checked:before {
+  content: '\e6d4';
+}
+
+.yh-iconfont-checkbox:before {
+  content: '\e6d5';
+}
+
+.yh-iconfont-radio:before {
+  content: '\e6d7';
+}
+
+.yh-iconfont-voice:before {
+  content: '\e6ef';
+}
+
+.yh-iconfont-voice-fill:before {
+  content: '\e6f0';
+}
+
+.yh-iconfont-wifi:before {
+  content: '\e6f2';
+}
+
+.yh-iconfont-female:before {
+  content: '\e71a';
+}
+
+.yh-iconfont-male:before {
+  content: '\e71c';
+}
+
+.yh-iconfont-radio-checked:before {
+  content: '\e763';
+}
+
+.yh-iconfont-back-light:before {
+  content: '\e7e0';
+}
+
+.yh-iconfont-edit:before {
+  content: '\e66e';
+}
+
+.yh-iconfont-search:before {
+  content: '\e67d';
+}
+
+.yh-iconfont-arrow-left:before {
+  content: '\e7e2';
+}
+
+.yh-iconfont-arrow-up:before {
+  content: '\e7e3';
+}
+
+.yh-iconfont-arrow-right:before {
+  content: '\e665';
+}
+
+.yh-iconfont-arrow-down:before {
+  content: '\e7e1';
+}

@@ -1,0 +1,24 @@
+// 连续快速点击时禁止选中文字
+// @example scss
+//
+// .element {
+//   @include noSelect;
+// }
+//
+// // CSS Output
+// .element {
+//   -webkit-touch-callout: none;
+//   -webkit-user-select: none;
+//   -khtml-user-select: none;
+//   -moz-user-select: none;
+//   -ms-user-select: none;
+//   user-select: none;
+// }
+@mixin noSelect {
+  -webkit-touch-callout: none; // iOS Safari
+  -webkit-user-select: none; // Chrome/Safari/Opera
+  -khtml-user-select: none; // Konqueror
+  -moz-user-select: none; // Firefox
+  -ms-user-select: none; // Internet Explorer/Edge
+  user-select: none; // Non-prefixed version, currently not supported by any browser
+}

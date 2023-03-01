@@ -1,0 +1,23 @@
+// 文本超出 显示省略号 
+@mixin textOverflow($rows: 1) {
+  // 当参数为数字时才有效
+  @if type-of($rows) == 'number' {
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    @if $rows == 1 {
+      white-space: nowrap;
+    } @else {
+      display: -webkit-box;
+      -webkit-line-clamp: $rows;
+      -webkit-box-orient: vertical;
+    }
+  } @else {
+    // 错误提示
+    &::after {
+      content: 'We expect you to pass in a Number, but you passed in a ' +
+      type-of($rows);
+      color: #f00;
+    }
+  }
+}

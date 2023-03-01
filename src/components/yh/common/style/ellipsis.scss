@@ -1,0 +1,13 @@
+@use './mixins/ellipsis.scss';
+
+.yh-ellipsis {
+  @include ellipsis.textOverflow();
+}
+
+.yh-multi-ellipsis--l2 {
+  @include ellipsis.textOverflow(2);
+}
+
+.yh-multi-ellipsis--l3 {
+  @include ellipsis.textOverflow(3);
+}

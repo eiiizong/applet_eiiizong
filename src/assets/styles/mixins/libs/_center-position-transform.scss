@@ -1,0 +1,24 @@
+// 元素居中 —— 定位
+// @example scss
+//
+// .element {
+//   @include centerPositionTransform();
+// }
+//
+// // CSS Output
+// .element {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+@mixin centerPositionTransform($pos: absolute) {
+  position: $pos;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
